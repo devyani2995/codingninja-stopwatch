@@ -1,0 +1,77 @@
+/* setting the style for the body with a background color, flex display and centered content. */
+body {
+    background-color: #051b32;
+    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* setting the style of the main conatiner */
+#container {
+    color: #d7dfe4;
+    border: 3px solid;
+    width: 49vw;
+    padding: 28px;
+    border-radius: 2rem;
+}
+
+/* 
+    setting the style for the time display section,centering the content.
+*/
+#time {
+    text-align: center;
+}
+
+/* 
+    setting the style for timer digits with large font size and bold.
+*/
+.digit {
+    font-size: 150px;
+    font-weight: bold;
+}
+
+.txt {
+    font-size: 140px;
+    font-weight: bold;
+    position: relative;
+    top: -16px;
+}
+
+/* 
+    setting the style for the button container section,adjusting  the buttons on the center 
+    and adding margin at the top.
+*/
+.btn-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* 
+   setting common styling for all the three buttons 
+   with padding, font size, margin, cursor, color, and border properties.
+ */
+.btn {
+    padding: 7px 25px;
+    font-size: 15px;
+    margin: 0px 10px;
+    cursor: pointer;
+    color: white;
+    border: 0px;
+}
+
+/* 
+    setting individual button styles with different background colors.
+*/
+#start {
+    background-color: #1abc9c;
+}
+
+#stop {
+    background-color: #3498db;
+}
+
+#reset {
+    background-color: #e74c3c;
+}
